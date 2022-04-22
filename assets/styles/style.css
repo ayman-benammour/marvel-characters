@@ -1,0 +1,88 @@
+:root
+{
+    --whiteColor: #f3eee8;
+    --redColor: #d71515;
+    --blackColor: #000000;
+}
+
+@font-face {
+    font-family: 'Coluna Rounded';
+    src: url('../fonts/ColunaRounded-CondensedBold.woff2') format('woff2'),
+        url('../fonts/ColunaRounded-CondensedBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--whiteColor);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+/* SCROLL BAR */
+::-webkit-scrollbar
+{
+    width: 10px;
+}
+
+  ::-webkit-scrollbar-track
+{
+    background: #424242;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: #686868;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+    background: #7b7b7b; 
+}
+
+.grid
+{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Coluna Rounded';
+    align-items: center;
+}
+
+.header .centerContent a
+{
+    margin-left: 16px;
+    margin-right: 16px;
+    transition: all 0.5s cubic-bezier(0.11, 0.7, 0, 1);
+}
+
+.header a:hover
+{
+    color: var(--redColor);
+}
+
+.linkActive
+{
+    filter: invert(13%) sepia(85%) saturate(4794%) hue-rotate(356deg) brightness(101%) contrast(90%);
+}
+
+.copyright
+{
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Coluna Rounded';
+}

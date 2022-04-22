@@ -1,0 +1,71 @@
+
+.button
+{
+    display: inline-block;
+    height: auto !important;
+    padding: 16px 65px;
+    color: #d71515;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 2px solid #d71515;
+    transition: all 0.5s cubic-bezier(0.11, 0.7, 0, 1);
+    cursor: pointer;
+}
+
+.button:hover
+{
+    background-color: #d71515;
+    color: #000000;
+}
+
+.block-title
+{
+    margin-bottom: 52px;
+    text-align: center;
+    font-size: 36px;
+    color: #000000;
+}
+
+/* 
+ Articles
+ */
+ .articles
+ {
+     padding: 20px 0;
+ }
+ 
+ .articles .article
+ {
+     display: flex;
+ }
+ 
+ .articles .article:nth-child(even)
+ {
+     flex-direction: row-reverse;
+ }
+ 
+ 
+ .articles .article .text
+ {
+     padding: 55px;
+ }
+ 
+ .articles .article .text .block-title
+ {
+     margin-bottom: 25px;
+     text-align: left;
+ }
+ 
+ .articles .article .text p
+ {
+     padding-bottom: 55px;
+     line-height: 26px;
+ }
+
+.date
+{
+    margin-top: 120px;
+    font-size: 36px;
+    font-family: 'Coluna Rounded';
+}
+

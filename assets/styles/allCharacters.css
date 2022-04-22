@@ -1,0 +1,66 @@
+.allCharacters
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.card
+{
+    margin-top: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}  
+
+.card h3
+{
+    margin-top: 16px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.pagination
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-size: 24px;
+    font-family: 'Coluna Rounded';
+    border-bottom: solid 2px #00000033;
+    padding-bottom: 8px;
+}
+
+.pagination .leftContent
+{
+    display: flex;
+}
+
+.pagination .leftContent > p
+{
+    margin-left: 16px;
+}
+
+.pagination .leftContent .page
+{
+    display: flex;
+    align-items: flex-start;
+    border-right: solid 2px #00000033;
+    padding-right: 16px;
+    width: 120px;
+    justify-content: space-between;
+}
+
+.pagination .leftContent form
+{
+    margin-left: 16px;
+}
+
+.pagination .leftContent form .searchButton
+{
+    background-image: url(../images/search-icon.svg);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
