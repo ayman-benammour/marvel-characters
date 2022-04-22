@@ -2,7 +2,7 @@
 Data provided by Marvel. © 2022 MARVEL
 
 - [GitHub](https://github.com/ayman-benammour/marvel-characters)
-- [Live]
+- [Live](https://marvel-characters.osc-fr1.scalingo.io/)
 - [Notion]
 
 ## Setup
