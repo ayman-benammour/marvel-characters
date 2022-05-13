@@ -45,7 +45,7 @@ function apiCall($url)
 }
 
     $apiKey = '1dbf9f642eafb1dde5997d1598b30b72';
-    $apiKeyPrivate = file_get_contents('apiKeyPrivate.env');
+    $apiKeyPrivate = '77f08ad9df1076126abc6b30c695a390311d4014';
     $hash = md5(1 . $apiKeyPrivate . $apiKey);
 
     $params = '?ts=' . 1 . '&apikey=' . $apiKey . '&hash=' . $hash;
