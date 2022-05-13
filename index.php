@@ -50,11 +50,10 @@ $characters = $resultCharacters->data->results;
             </div>
             <div class="centerContent">
                 <a href="./index.php?page=1" class="linkActive">All characters</a>
-                <a href="./charactersOfTheDay.php">Characters of the day</a>
                 <a href="./randomCharacter.php">Random character</a>
             </div>
             <div class="rightContent">
-                <a href="#">About</a>
+                <a href="./about.php">About</a>
             </div>
         </div>
 
@@ -77,10 +76,10 @@ $characters = $resultCharacters->data->results;
 
         <div class="allCharacters">
             <?php foreach ($characters as $key => $character) { ?>
-                <a href="#" class="card">
+                <class class="card">
                     <img src="<?= $character->thumbnail->path . '/portrait_uncanny.' . $character->thumbnail->extension ?>" alt="">
                     <h3><?= $character->name ?></h3>
-                </a>
+            </class>
             <?php } ?>
         </div>
 

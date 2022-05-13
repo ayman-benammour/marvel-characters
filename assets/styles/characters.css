@@ -1,18 +1,17 @@
 
-.button
+.buttonReload
 {
     display: inline-block;
     height: auto !important;
-    padding: 16px 65px;
+    padding: 16px 16px;
     color: #d71515;
-    font-size: 18px;
     text-transform: uppercase;
     border: 2px solid #d71515;
     transition: all 0.5s cubic-bezier(0.11, 0.7, 0, 1);
     cursor: pointer;
 }
 
-.button:hover
+.buttonReload:hover
 {
     background-color: #d71515;
     color: #000000;

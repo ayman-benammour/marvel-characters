@@ -37,11 +37,10 @@ $characterCard1 = $resultCharactersRandom1->data->results[$countCharacter1];
             </div>
             <div class="centerContent">
                 <a href="./index.php?page=1">All characters</a>
-                <a href="./charactersOfTheDay.php">Characters of the day</a>
                 <a href="./randomCharacter.php" class="linkActive">Random character</a>
             </div>
             <div class="rightContent">
-                <a href="#">About</a>
+                <a href="./about.php">About</a>
             </div>
         </div>
 
@@ -60,7 +59,7 @@ $characterCard1 = $resultCharactersRandom1->data->results[$countCharacter1];
                 <div class="text">
                     <h3 class="block-title"><?= $characterCard1->name ?></h3>
                     <p><?= $characterCard1->description ?></p>
-                    <a class="button" href="#">More</a>
+                    <button class="buttonReload" onClick="window.location.reload();"><img src="./assets/images/reload-icon.svg" alt="Reload button" height="30px"></button>
                 </div>
 
             </article>
